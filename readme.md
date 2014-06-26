@@ -18,7 +18,7 @@ catálogo não inclui os sismos profundos do Acre, apenas os sismos
 crustais no Brasil e vizinhanças.
 
 
-[[img src=map.png alt=mapa]]
+![mapa](map.png "mapa")
 
 
 *Fig. 1. Epicentros do catálogo Sísmico Brasileiro. Círculos
