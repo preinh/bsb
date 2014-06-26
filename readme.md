@@ -1,6 +1,5 @@
 **Catálogo Sísmico Brasileiro (até 2012)**
 
-\
 
 Este catálogo de sismos do Brasil é uma compilação de dados de várias
 fontes. Para os sismos até 1981, usa-se o livro “Sismicidade do Brasil”
@@ -14,13 +13,13 @@ UNESP e ON.
 
 A Fig. 1 mostra o mapa com os epicentros do Catálogo Sísmico Brasileiro,
 até 31/12/2012, versão Agosto/2013. A listagem completa dos sismos, no
-formato csv, é o arquivo catalogo\_BR\_1560a2012\_v2013Aug10.csv.   Este
+formato csv, é o arquivo catalogo_BR_1560a2012_v2013Aug10.csv.Este
 catálogo não inclui os sismos profundos do Acre, apenas os sismos
 crustais no Brasil e vizinhanças.
 
-\
 
-***Fig. 1.****Epicentros do catálogo Sísmico Brasileiro. Círculos
+
+Fig. 1. Epicentros do catálogo Sísmico Brasileiro. Círculos
 vermelhos são eventos com magnitude Richter instrumental; círculos azuis
 são eventos mais antigos com magnitudes estimadas com dados
 macrossísmicos (área afetada ou intensidade máxima). Ver legenda abaixo.
@@ -29,7 +28,7 @@ Círculos vazios nos Andes são os sismos mais fortes sentidos no Brasil
 grossa é o limite de compilação de eventos para o Catálogo Sísmico. Esta
 figura não mostra os sismos profundos do Acre.*
 
-\
+
 
 Um outro arquivo, mais “limpo”, i.e., eliminando os eventos fora do
 Brasil (“E”), os duvidosos (“D”), os de incerteza epicentral superior a
@@ -41,27 +40,23 @@ variável com a época e com a região. Há mais informações de sismos na
 região Sul e Sudeste do que na Amazônia, devido à maior população e ao
 maior número de estações sismográficas. 
 
-\
+
 
 **Legenda dos dados do catálogo (colunas no arquivo csv):**
 
-\
 
-YEAR = Ano,   MM = Mês,   DD=Dia,   HH = Hora Universal,   MM = Minuto,
-  SECS = segundos.
 
-   Obs: Mesmo para os tremores antigos, antes da era instrumental, a
-Hora Local foi convertida 
+YEAR = Ano,  MM = Mês,  DD=Dia,  HH = Hora Universal,  MM = Minuto, SECS = segundos.
 
-            para Hora UT (UT=Hora Local + 3 horas, ou Hora Local de
+Obs: Mesmo para os tremores antigos, antes da era instrumental, a
+Hora Local foi convertida para Hora UT (UT=Hora Local + 3 horas, ou Hora Local de
 Verão + 2 horas).
 
-LATIT. = Latitude,   LONGIT = Longitude,   DEPTH = profundidade do
-hipocentro (km).
+LATIT. = Latitude, LONGIT = Longitude, DEPTH = profundidade do hipocentro (km).
+Obs.: profundidade 0.0 significa que não há informação.
 
-   Obs.: profundidade 0.0 significa que não há informação.
 
-ERR = Incerteza estimada do epicentro (km);  valor 0.0 significa que não
+ERR = Incerteza estimada do epicentro (km); valor 0.0 significa que não
 há informação.
 
 MAG = Magnitude na escala Richter correspondente à magnitude de onda P
@@ -80,9 +75,7 @@ IASPEI).
 2 = média de mb e mR.
 
 3 = magnitude estimada pela área afetada (Berrocal et al., 1984):
-
 mag = 1.63  +  0.60 log (Area II, km2)
-
 mag = 2.29  +  0.55 log (Area IV, km2)
 
 4 = magnitude estimada com Intensidade máxima Io (sem Área afetada
@@ -92,7 +85,6 @@ mag = 1.21  +  0.45 Io
 
 5 = magnitude estimada indiretamente.
 
-\
 
 CAT = Categoria de evento:
 
@@ -112,7 +104,6 @@ cidades do país.
 
 I = dado instrumental.
 
-\
 
 Io =  Intensidade máxima epicentral, escala Mercalli Modificada
 
@@ -125,25 +116,4 @@ UR=Uruguai).
 LOCALITY = nome da cidade mais próxima ao epicentro.
 
 (SOURCE) COMMENTS = Fonte primária dos dados () e comentários sobre o
-evento. Quando a
-
-  fonte não é mencionada, trata-se de dado de Berrocal et al.(1984).
-
-\
-
-PAGE  
-
-\
-
-\
-
-PAGE  1
-
-\
-
-\
-
-\
-
-\
-
+evento. Quando a fonte não é mencionada, trata-se de dado de Berrocal et al.(1984).
