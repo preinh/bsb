@@ -13,7 +13,7 @@ UNESP e ON.
 
 
 A Fig. 1 mostra o mapa com os epicentros do Boletim Sísmico Brasileiro,
-até 24/06/2014. 
+até **24/06/2014**. 
 
 A listagem completa dos sismos, no formato CSV, é o arquivo **catalogue\_br\_CLEAN.csv**.
 
