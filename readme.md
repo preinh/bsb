@@ -1,4 +1,4 @@
-## Boletim Sísmico Brasileiro / Brazilian Seismic Bulletin
+## Boletim Sísmico Brasileiro <br/> Brazilian Seismic Bulletin
 
 
 Este catálogo de sismos do Brasil é uma compilação de dados de várias
@@ -15,7 +15,7 @@ UNESP e ON.
 A Fig. 1 mostra o mapa com os epicentros do Boletim Sísmico Brasileiro,
 até 24/06/2014. 
 
-A listagem completa dos sismos, no formato CSV, é o arquivo `**catalogue\_br\_CLEAN.csv**`.
+A listagem completa dos sismos, no formato CSV, é o arquivo **catalogue\_br\_CLEAN.csv**.
 
 Este catálogo não inclui os sismos profundos do Acre, apenas os sismos
 crustais no Brasil e vizinhanças. Também foram removidos do catálogo *bruto* os eventos de fora do
