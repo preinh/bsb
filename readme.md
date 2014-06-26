@@ -42,71 +42,15 @@ DD | Dia |
 HH | Hora Universal | 
 MM | Minuto | 
 SECS | Segundos | Mesmo para os tremores antigos, antes da era instrumental, a Hora Local foi convertida para Hora UT (UT=Hora Local + 3 horas, ou Hora Local de Verão + 2 horas).
-
-
-
-LATIT. = Latitude, LONGIT = Longitude, DEPTH = profundidade do hipocentro (km).
-Obs.: profundidade 0.0 significa que não há informação.
-
-
-ERR = Incerteza estimada do epicentro (km); valor 0.0 significa que não
-há informação.
-
-MAG = Magnitude na escala Richter correspondente à magnitude de onda P
-(mb).
-
-MT = método de cálculo da magnitude:
-
--1 = magnitude não disponível, (valor=0.0 significando que não há
-dados).
-
-0 = magnitude de onda P com estações a distâncias telessísmicas (mb
-IASPEI).
-
-1 = magnitude mR com estações regionais (Assumpção, 1983).
-
-2 = média de mb e mR.
-
-3 = magnitude estimada pela área afetada (Berrocal et al., 1984):
-mag = 1.63  +  0.60 log (Area II, km2)
-mag = 2.29  +  0.55 log (Area IV, km2)
-
-4 = magnitude estimada com Intensidade máxima Io (sem Área afetada
-disponível):
-
-mag = 1.21  +  0.45 Io
-
-5 = magnitude estimada indiretamente.
-
-
-CAT = Categoria de evento:
-
-A = dados macrossísmicos detalhados para determinar o epicentro e
-isossistas.
-
-B = dados macrossísmicos suficientes para estimar epicentro e a área
-afetada total.
-
-C = dados macrossísmicos insuficientes para estimar área afetada.
-
-D = dado duvidoso: dado equivocado, suspeita de erro, ou não é sismo
-natural.
-
-E = terremoto forte fora do Brasil, mas que foi sentido em uma ou mais
-cidades do país.
-
-I = dado instrumental.
-
-
-Io =  Intensidade máxima epicentral, escala Mercalli Modificada
-
-AFELT = Área total onde o sismo foi sentido (área da isossista II MM =
-“Area II”), em 10^3^km^2^.
-
-ST = Estado do Brasil, ou país (AR=Argentina, BO=Bolivia, PY=Paraguai,
-UR=Uruguai).
-
-LOCALITY = nome da cidade mais próxima ao epicentro.
-
-(SOURCE) COMMENTS = Fonte primária dos dados () e comentários sobre o
-evento. Quando a fonte não é mencionada, trata-se de dado de Berrocal et al.(1984).
+LATIT. | Latitude | 
+LONGIT |  Longitude | 
+DEPTH  | profundidade do hipocentro (km) | profundidade 0.0 significa que não há informação.
+ERR  | Incerteza estimada do epicentro (km) | valor 0.0 significa que não há informação.
+MAG | Magnitude na escala Richter | correspondente à magnitude de onda P (mb).
+MT | método de cálculo da magnitude | -1 = magnitude não disponível (valor=0.0 significando que não há
+dados). <br/> 0 = magnitude de onda P com estações a distâncias telessísmicas (mb IASPEI). <br/> 1 = magnitude mR com estações regionais (Assumpção, 1983). <br/> 2 = média de mb e mR. <br/> 3 = magnitude estimada pela área afetada (Berrocal et al., 1984): <br/>mag = 1.63  +  0.60 log (Area II, km2) <br/> mag = 2.29  +  0.55 log (Area IV, km2) <br/>4 = magnitude estimada com Intensidade máxima Io (sem Área afetada disponível): <br/>mag = 1.21  +  0.45 Io <br/> 5 = magnitude estimada indiretamente.
+CAT | Categoria de evento | A = dados macrossísmicos detalhados para determinar o epicentro e isossistas. <br/> B = dados macrossísmicos suficientes para estimar epicentro e a área afetada total. <br/> C = dados macrossísmicos insuficientes para estimar área afetada. <br/>D = dado duvidoso: dado equivocado, suspeita de erro, ou não é sismo natural. <br/>E = terremoto forte fora do Brasil, mas que foi sentido em uma ou mais cidades do país. <br/> I = dado instrumental. <br/> Io =  Intensidade máxima epicentral, escala Mercalli Modificada
+AFELT | Área total onde o sismo foi sentido| área da isossista II MM = [Area II]), em 10^3 km^2.
+ST | Estado do Brasil, ou país | AR=Argentina, BO=Bolivia, PY=Paraguai, UR=Uruguai.
+LOCALITY | nome da cidade mais próxima ao epicentro | 
+(SOURCE) COMMENTS | Fonte primária dos dados () e comentários sobre o evento | Quando a fonte não é mencionada, trata-se de dado de Berrocal et al.(1984).
