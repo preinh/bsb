@@ -18,8 +18,10 @@ catálogo não inclui os sismos profundos do Acre, apenas os sismos
 crustais no Brasil e vizinhanças.
 
 
+[[img src=map.png alt=mapa]]
 
-Fig. 1. Epicentros do catálogo Sísmico Brasileiro. Círculos
+
+*Fig. 1. Epicentros do catálogo Sísmico Brasileiro. Círculos
 vermelhos são eventos com magnitude Richter instrumental; círculos azuis
 são eventos mais antigos com magnitudes estimadas com dados
 macrossísmicos (área afetada ou intensidade máxima). Ver legenda abaixo.
