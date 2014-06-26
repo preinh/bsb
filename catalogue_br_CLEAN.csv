@@ -8,7 +8,7 @@ YEAR,MM,DD, HH,MM, SS  ,LATITUDE, LONG. ,DEPTH,ERR, MAG,MT,Q, Io, Area,ST, Local
 1811,10,28, 22,30,     ,  -8.080,-34.870,  0.0, 50, 3.8, 3,C,  5,  0.6,PE,RECIFE                 ,AREA IV APROX. 
 1824,  ,00,   ,  ,     , -21.980,-44.880,  0.0,  0, 3.2, 4,C,4-5,     ,MG,CAXAMBU     ,
 1826,  ,00,   ,  ,     , -11.710,-47.770,  0.0,  0, 2.6, 4,C,  3,     ,GO,NATIVIDADE  ,
-1832,  ,00,   ,  ,     , -20.820,-45.720,  0.0,  0, 3.5, 4,C,  5,     ,MG,Guapeh                 ,(Passos Maia: "Guape"; UnB/Furnas)
+1832,  ,00,   ,  ,     , -20.820,-45.720,  0.0,  0, 3.5, 4,C,  5,     ,MG,Guapeh                 ,(Passos Maia: Guape; UnB/Furnas)
 1834,  ,00,   ,  ,     , -11.710,-47.770,  0.0,  0, 2.6, 4,C,  3,     ,GO,NATIVIDADE  ,
 1839,07,16, 02,  ,     , -21.840,-45.390,  0.0,  0, 3.0, 4,C,  4,     ,MG,CAMPANHA    ,
 1840,  ,00,   ,  ,     , -21.030,-44.750,  0.0,  0, 3.0, 4,C,  4,     ,MG,BOM SUCESSO            ,VARIOS EVENTOS 
