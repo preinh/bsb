@@ -37,10 +37,10 @@ Brasil (“E”), os duvidosos (“D”), os de incerteza epicentral superior a
 Campo  | Significado | Obs
 ------ | ----------- | ---
 YEAR | Ano | 
-MM | Mês | 
+MO | Mês | 
 DD | Dia |
 HH | Hora Universal | 
-MM | Minuto | 
+MI | Minuto | 
 SECS | Segundos | Mesmo para os tremores antigos, antes da era instrumental, a Hora Local foi convertida para Hora UT (UT=Hora Local + 3 horas, ou Hora Local de Verão + 2 horas).
 LATIT. | Latitude | 
 LONGIT |  Longitude | 
