@@ -1,3 +1,7 @@
+## 2014.11
+- Give 2 Mw values, from Scordillis and Assumpção&Drouet (Unpublished), and a uncertanty value. (Mw extension)
+- Add 1's to Months and days with NO values, and 0's to Hour and Minutes in the same condition. (Mw_MMDDHH extension)
+
 ## 2014.06
 - CLEAN version, now goes up to mag=2.0 instead of mag=2.8 on the last version. 
 
