@@ -55,6 +55,9 @@ LOCALITY | nome da cidade mais próxima ao epicentro |
 (SOURCE) COMMENTS | Fonte primária dos dados () e comentários sobre o evento | Quando a fonte não é mencionada, trata-se de dado de Berrocal et al.(1984).
 
 
+### ChangeLog:
+[Here](changelog.md "here") is the changelog for all available versions. 
+
 
 <a rel="license" href="http://creativecommons.org/licenses/by/4.0/"><img alt="Licença Creative Commons" style="border-width:0" src="https://i.creativecommons.org/l/by/4.0/88x31.png" /></a><br /><span xmlns:dct="http://purl.org/dc/terms/" href="http://purl.org/dc/dcmitype/Dataset" property="dct:title" rel="dct:type">Boletim Sismico Brasileiro</span> de <span xmlns:cc="http://creativecommons.org/ns#" property="cc:attributionName">Centro de Sismologia-USP</span> está licenciado com uma Licença <a rel="license" href="http://creativecommons.org/licenses/by/4.0/">Creative Commons - Atribuição 4.0 Internacional</a>.
 
