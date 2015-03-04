@@ -12,26 +12,28 @@ class BR_proxy(object):
 	def __init__(self):
 		pass
 
-	def from_mb(self, m):
-		return 1.121*m - 0.76, 0.3
+	def from_mb(self, mb):
+		mw = 1.121*mb - 0.76
+		return mw, 0.3
 
 	def from_af(self, af):
 		# changing units
-		af = af*1000
+		af = af*1000.
 		# # equation IV
 		# return 0.8 * np.log10(af) + 0.6
 		# # equation III
-		return 0.81 + 0.639*np.log10(af) + 0.00084*np.sqrt(af), 0.4
+		mw = 0.81 + 0.639*np.log10(af) + 0.00084*np.sqrt(af)
+		return mw, 0.4
 
 	def from_i0(self, i0):
 		mb = 1.21 + 0.45*i0
-		m, _ = self.from_mb(mb)
-		return m, 0.6
+		mw, _ = self.from_mb(mb)
+		return mw, 0.6
 
 	def from_mb_af(self, mb, af):
-		m_mb = self.from_mb(mb)
-		m_af = self.from_af(af)
-		m = 0.7 * m_mb + 0.3 * m_af
+		m_mb, _ = self.from_mb(mb)
+		m_af, _ = self.from_af(af)
+		m = 0.7*m_mb + 0.3*m_af
 		return m, 0.33
 
 
