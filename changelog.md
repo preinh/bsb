@@ -1,3 +1,9 @@
+## 2016.08
+- add earthquakes occurred until the end of 2015
+- update **BR_proxy** Mw(mb) application rule. Adhoc communication
+- change proxy notebooks to read from excel to csv
+- remove some extra (and confused) files
+- for this version the minimum magnitude in the catalog is ```mR = 2.8```
 
 ## 2014.11
 - add bsb2014.11* files
@@ -9,7 +15,7 @@
 
 
 ## 2014.06
-- CLEAN version, now goes up to mag=2.0 instead of mag=2.8 on the last version. 
+- CLEAN version, now goes up to mag=2.0 instead of mag=2.8 on the last version.
 
 
 ## pre_2014.06
