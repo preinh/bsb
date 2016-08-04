@@ -13,7 +13,9 @@ class BR_proxy(object):
 		pass
 
 	def from_mb(self, mb):
-		mw = 1.121*mb - 0.76
+		# mw = 1.121*mb - 0.76
+		# update accordingly adhoc communication
+		mw = 1.00*mb - 0.34
 		return mw, 0.3
 
 	def from_af(self, af):
